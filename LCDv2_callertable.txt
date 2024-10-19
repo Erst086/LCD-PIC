@@ -1,0 +1,24 @@
+main
+	LCDinit
+		LCDcommand
+			Pulse
+		LCDclear
+			LCDcommand
+				Pulse
+	LCDclear
+		LCDcommand
+			Pulse
+	LCDwriteMessage
+		____DoICP
+		LCDwriteChar
+			Pulse
+	LCDsetCursor
+		LCDcommand
+			Pulse
+	LCDcommand
+		Pulse
+	LCDwriteBinary
+		LCDcommand
+			Pulse
+		LCDwriteChar
+			Pulse
